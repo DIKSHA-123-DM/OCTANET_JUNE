@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing Page </title>
+    <style type="text/css">
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        header{
+            width:100%;
+            height:100vh;
+            background:linear-gradient(rgba(0, 0, 0, 0.248),rgba(0, 0, 0, 0.785)),url("Travel-Destination-in-India-15.jpg");
+            background-size:100% 100%;
+            background-repeat:no-repeat;
+            font-family:sans-serif;
+            font-size:100%;
+
+        }
+        nav{
+            width:100%;
+            height:100px;
+            color:aqua;
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            letter-spacing:2px;
+        }
+        .logo{
+        color:aqua;
+        font-size:40px;
+        letter-spacing:3px;
+        font-weight:600;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        span{
+            color:rgb(255, 217, 0);
+        }
+        .menu a{
+            text-decoration:none;
+            color:white;
+            padding:10px 20px;
+            font-size:20px;
+            position:relative;
+        }
+        .menu a:before{
+            content:'';
+            position:absolute;
+            top:0px;
+            bottom:0px;
+            height:100%;
+            width:0%;
+            border-bottom:2px solid indianred;
+        }
+        .menu a:hover:before{
+        width:90%;
+        }
+        .reg a{
+            text-decoration: none;
+            color:white;
+            padding:10px 20px;
+            font-size:20px;
+            background:indianred;
+            border-radius:8px;
+            transition:0.4s;
+        }
+        .reg a:hover{
+            background:transparent;
+            border-bottom:2px solid indianred;
+        }
+.texth{
+    max-width:650px;
+    position:absolute;
+    top:50%;
+    left:30%;
+    transform:translate(-50%,-50%);
+    text-align:left;
+    color:white;
+}
+.texth span{
+    letter-spacing:8px;
+    color:gold;
+}
+.texth h1{
+    font-size:48px;
+    text-transform: capitalize;
+}
+.texth a{
+    text-decoration:none;
+    background-color:red;
+    color:white;
+    border-radius:8px;
+    padding:20px 30px;
+    letter-spacing:5px;
+    transition:0.4s;
+}
+.texth a:hover{
+    background:transparent;
+    border:2px solid indianred;
+}
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+<nav> 
+    <div class="logo">
+    <h1><span>Tra</span>world</h1>
+    </div>
+    <div class="menu">
+        <a href ="#">Home</a>
+        <a href ="#">Hill Stations</a>
+        <a href ="#">Beaches</a>
+        <a href ="#">Best Offer</a>
+        <a href ="#">Our Sites</a>
+        <a href ="#">Contact</a>
+        <a href ="#">Guidance</a>
+    </div>
+    <div class="reg">
+    <a href ="#">Register</a>
+    </div>
+</nav>
+<div class="texth">
+    <Span>Travel.Explore.Live</Span>
+    <h1>Explore-X offers amazing tours and travel experiences at best prices</h1>
+    <br>
+    <br>
+    <a href="#">Book Your Trip</a>
+</div>
+    </header>
+</body>
+</html>
